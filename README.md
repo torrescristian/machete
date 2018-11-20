@@ -22,6 +22,9 @@ git push origin nombre_rama
 ## eliminar rama
 git branch -d nombre_rama
 
+## cambiar de rama
+git checkout nombre_rama
+
 ## crear una nueva rama con el contenido de la en que se está posicionado
 git checkout -b nombre_nueva_rama
 
