@@ -3,7 +3,7 @@ Resumen de todo un poco relacionado con desarrollo
 
 # Git
 
-## usuario y contraseña
+## usuario y email
 git config --global user.name "John Doe" <br/>
 git config --global user.email johndoe@example.com
 
