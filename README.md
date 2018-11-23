@@ -4,7 +4,7 @@ Resumen de todo un poco relacionado con desarrollo
 # Git
 
 ## usuario y contraseña
-git config --global user.name "John Doe"
+git config --global user.name "John Doe" <br/>
 git config --global user.email johndoe@example.com
 
 ## descargar cambios del repositorio remoto
