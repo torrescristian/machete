@@ -30,3 +30,6 @@ git checkout -b <nombre_nueva_rama>
 
 ## fusionar una rama a la rama en la rama que se está parado
 git merge <nombre_nueva_rama>
+
+## borrar los cambios realizados hasta el último commit
+git checkout .
