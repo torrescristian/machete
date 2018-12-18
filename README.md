@@ -36,3 +36,6 @@ git checkout .
 
 ## ver diferencias entre 2 commits
 git diff <commit_a>^..<commit_b>
+
+## borrar el último commit
+git reset --hard HEAD~
