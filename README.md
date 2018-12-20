@@ -1,41 +1,58 @@
 # machete
 Resumen de todo un poco relacionado con desarrollo
 
+# VS Code
+
+## Colapsar Todo
+<code>ctrl + k -> ctrl + 0</code> 
+
+## Buscar en archivo actual
+<code>ctrl + f</code> 
+
+## Buscar en todos los archivos
+<code>ctrl + alt + f</code>
+
+## nueva terminal 
+<code>ctrl + shift + ñ</code> 
+
+## comentar / descomentar
+<code>ctrl + ç</code>
+
 # Git
 
 ## nombre de usuario y email
-git config --global user.name "<John Doe>" <br/>
-git config --global user.email <johndoe@example.com>
+<code>git config --global user.name "<John Doe>" <br/></code><br/>
+<code>git config --global user.email <johndoe@example.com></code>
 
 ## descargar cambios de un repositorio remoto
-git pull origin <nombre_rama>
+<code>git pull origin <nombre_rama></code>
 
 ## agregar todos los cambios
-git add .
+<code>git add .</code>
 
 ## hacer un commit comentado
-git commit -m "<comentario así nomas>"
+<code>git commit -m "<comentario así nomas>"</code>
 
 ## enviar cambios a un repositorio remoto
-git push origin <nombre_rama>
+<code>git push origin <nombre_rama></code>
 
 ## eliminar rama
-git branch -d <nombre_rama>
+<code>git branch -d <nombre_rama></code>
 
 ## cambiar de rama
-git checkout <nombre_rama>
+<code>git checkout <nombre_rama></code>
 
 ## crear una nueva rama con el contenido de la rama que se está parado
-git checkout -b <nombre_nueva_rama>
+<code>git checkout -b <nombre_nueva_rama></code>
 
 ## fusionar una rama a la rama en la rama que se está parado
-git merge <nombre_nueva_rama>
+<code>git merge <nombre_nueva_rama></code>
 
 ## borrar los cambios realizados hasta el último commit
-git checkout .
+<code>git checkout .</code>
 
 ## ver diferencias entre 2 commits
-git diff <commit_a>^..<commit_b>
+<code>git diff <commit_a>^..<commit_b></code>
 
 ## borrar el último commit
-git reset --hard HEAD~
+<code>git reset --hard HEAD~</code>
