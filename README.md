@@ -56,3 +56,6 @@ Resumen de todo un poco relacionado con desarrollo
 
 ## borrar el último commit
 <code>git reset --hard HEAD~</code>
+
+## conectarte a un repositorio con el certificado SSL vencido
+<code>git config --global http.sslVerify false</code>
