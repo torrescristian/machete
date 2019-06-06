@@ -65,5 +65,8 @@ Resumen de todo un poco relacionado con desarrollo
 ## clonar un proyecto con submódulos en cierta rama
 <code>git clone --recursive --branch <nombre_rama> <url_repo></code>
   
+## después de clonar un proyecto hay que inicializar los submódulos
+<code>git submodule update --init --recursive</code>
+  
 ## setear todos los submódulos a una misma rama
 <code>git submodule foreach --recursive git checkout <nombre_rama></code>
