@@ -70,3 +70,6 @@ Resumen de todo un poco relacionado con desarrollo
   
 ## setear todos los submódulos a una misma rama
 <code>git submodule foreach --recursive git checkout <nombre_rama></code>
+  
+## Guardar usuario y contraseña de un repo en linux
+<code>git config credential.helper store && git pull</code>
