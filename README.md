@@ -76,7 +76,7 @@ Resumen de todo un poco relacionado con desarrollo
 
 # Bash Alias
 
-se agregan en `gedit ~/.bashrc`
+se agregan en `gedit ~/.bashrc` y se debe reiniciar la terminal
 
 ```
 # ----------------------
