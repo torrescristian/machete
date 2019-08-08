@@ -75,7 +75,7 @@ Resumen de todo un poco relacionado con desarrollo
 <code>git config credential.helper store && git pull</code>
 
 # Bash Alias
-
+```
 # ----------------------
 # NPM
 # ----------------------
@@ -132,3 +132,4 @@ alias gstore='git config credential.helper store && git pull'
 # ----------------------
 # Git log find by commit message
 function glf() { git log --all --grep="$1"; }
+```
