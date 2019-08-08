@@ -75,6 +75,9 @@ Resumen de todo un poco relacionado con desarrollo
 <code>git config credential.helper store && git pull</code>
 
 # Bash Alias
+
+se agregan en `gedit ~/.bashrc`
+
 ```
 # ----------------------
 # NPM
