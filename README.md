@@ -73,3 +73,62 @@ Resumen de todo un poco relacionado con desarrollo
   
 ## Guardar usuario y contraseña de un repo en linux
 <code>git config credential.helper store && git pull</code>
+
+# Bash Alias
+
+# ----------------------
+# NPM
+# ----------------------
+alias ni='npm i'
+alias nid='npm i -D'
+alias ns='npm start'
+alias nt='npm test'
+alias nr='npm run'
+alias nvmi='npm version minor'
+alias nvma='npm version mayor'
+alias nvpa='npm version patch'
+​
+# ----------------------
+# Git Aliases
+# ----------------------
+alias ga='git add'
+alias gaa='git add .'
+alias gaaa='git add --all'
+alias gau='git add --update'
+alias gb='git branch'
+alias gbd='git branch --delete '
+alias gc='git commit'
+alias gcm='git commit --message'
+alias gcf='git commit --fixup'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gcom='git checkout master'
+alias gcos='git checkout staging'
+alias gcod='git checkout develop'
+alias gd='git diff'
+alias gda='git diff HEAD'
+alias gi='git init'
+alias glg='git log --graph --oneline --decorate --all'
+alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
+alias gm='git merge --no-ff'
+alias gma='git merge --abort'
+alias gmc='git merge --continue'
+alias gp='git pull'
+alias gpr='git pull --rebase'
+alias gr='git rebase'
+alias grh='git reset --hard HEAD~'
+alias gs='git status'
+alias gss='git status --short'
+alias gst='git stash'
+alias gsta='git stash apply'
+alias gstd='git stash drop'
+alias gstl='git stash list'
+alias gstp='git stash pop'
+alias gsts='git stash save'
+alias gnoverify='git config --global http.sslVerify false'
+alias gstore='git config credential.helper store && git pull'
+# ----------------------
+# Git Functions
+# ----------------------
+# Git log find by commit message
+function glf() { git log --all --grep="$1"; }
