@@ -76,7 +76,7 @@ Resumen de todo un poco relacionado con desarrollo
 
 # Bash Alias
 
-se agregan al final del archivo `gedit ~/.bashrc` y se debe reiniciar la terminal
+se agregan al final del archivo `gedit ~/.bashrc` (o en `gedit ~/.zshrc` si se usa zsh) y se debe reiniciar la terminal
 
 ```
 # ----------------------
