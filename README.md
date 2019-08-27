@@ -90,7 +90,6 @@ alias nr='npm run'
 alias nvmi='npm version minor'
 alias nvma='npm version mayor'
 alias nvpa='npm version patch'
-​
 # ----------------------
 # Git Aliases
 # ----------------------
