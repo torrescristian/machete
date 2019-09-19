@@ -88,6 +88,17 @@ alias ns='npm start'
 alias nt='npm test'
 alias nr='npm run'
 # ----------------------
+# Firebase
+# ----------------------
+alias fi='firebase init'
+alias fd='firebase deploy'
+alias fdf='firebase deploy --only functions'
+alias fu='firebase use'
+alias fli='firebase list'
+alias flo='firebase login'
+alias flor='firebase login --reauth'
+alias fs='firebase serve'
+# ----------------------
 # Git Aliases
 # ----------------------
 alias ga='git add'
